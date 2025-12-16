@@ -1,0 +1,33 @@
+# Logs
+logs/*.txt
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads (user-generated content)
+uploads/*
+!uploads/.gitkeep
+
+# Node modules (if any)
+node_modules/
+
+# PHP dependencies
+vendor/
+
+# Sensitive files
+includes/config.local.php
